@@ -4,14 +4,14 @@ import { useState } from "react"
 
 export default function WeatherApp(){
     let [weatherInfo, setWeatherInfo] = useState({
-        city: 'Banglore',
-        text: 'feels rainy',
-        temp: 24.6,
-        feelsLike: 20,
-        humidity: 54,
-        windSpeed: 30,
-        precipitaion: 20,
-        lastUpdated: '01 November 2025 IST- 12:27 PM',
+        city: 'Search Your City',
+        text: 'feels like',
+        temp: "",
+        feelsLike: "",
+        humidity: "",
+        windSpeed: "",
+        precipitaion: "",
+        lastUpdated: '',
     })
     let updateInfo = (result)=>{
         setWeatherInfo(result);

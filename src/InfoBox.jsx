@@ -20,7 +20,7 @@ export default function InfoBox({info}){
                 alt="some weather image"
                 height="140"
                 image={info.precipitation>=0.1?INIT_URL.rainy:(info.temp>15?INIT_URL.sunny:INIT_URL.cold)}
-                title='rainy weather'
+                title='weather condition'
             />
             <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
